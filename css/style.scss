@@ -6,7 +6,7 @@ $size-m: 16px;
 $size-l: 24px;
 $size-xl: 32px;
 
-$color-primary: #ff1f1f;
+$color-primary: #0ba9f3;
 
 body {
   font-size: 14px;
@@ -47,11 +47,11 @@ h2 {
 }
 
 .color-palatte-4 {
-  color: #fe7bb1 !important;
+  color: #7bfcfe !important;
 }
 
 .color-palatte-5 {
-  color: #f97d6e;
+  color: #6ecdf9;
 }
 
 .color-palatte-6 {
@@ -369,14 +369,27 @@ h2 {
   font-family: "Nanum Gothic Coding", monospace;
   font-size: 1.65rem;
   letter-spacing: 0.5px;
+  justify-content: center; /* Centers the grid horizontally */
+  align-content: center;   /* Centers the grid vertically */
+  justify-items: center;   /* Centers items within each grid cell horizontally */
+  align-items: center;     /* Centers items within each grid cell vertically */
 }
+
+// .services {
+//   display: grid;
+//   margin-top: 32px;
+//   grid-template-columns: 0.5fr 0.5fr;
+// }
 
 .services {
   display: grid;
   margin-top: 32px;
   grid-template-columns: 0.5fr 0.5fr;
+  justify-content: center; /* Centers the grid horizontally */
+  align-content: center;   /* Centers the grid vertically */
+  justify-items: center;   /* Centers items within each grid cell horizontally */
+  align-items: center;     /* Centers items within each grid cell vertically */
 }
-
 .grid-data {
   display: grid;
   opacity: 0;
